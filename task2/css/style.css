@@ -1,0 +1,161 @@
+#header{
+	height: 44px;
+    background-color: #333333;
+}
+#baidu{
+	width: 112px;
+	height: 100%;
+	background-image: url("../imags/baidubg.png");
+    float: left;
+    margin-left: 40px;
+}
+#navbar {
+	float: right;
+}
+#navbar li{
+	float: left;
+	/*可以采用inline-block方式，不过要加在前面加font-size：0；*/
+	/*也可以采用一个左浮动一个右浮动的方法*/
+	margin-right: 20px;
+    line-height: 44px;
+	font-size: 10px;
+}
+#navbar a {
+	color: white;
+	text-decoration:none;
+}
+#navbar li a.last {
+	color:#816C57;
+}
+/*优先级问题*/
+
+
+#mainbody{
+	background-color: #DEDEDE;
+	padding: 20px;
+}
+#first,#second,#third,#forth,#fifth{
+	background-color: white;
+	border: 1px solid #CBCBCB;
+	box-shadow: 2px 2px 0 0 #848484;
+	margin-bottom:20px; 
+	padding-bottom: 45px;
+}	
+.firsttitle{
+	padding: 40px 0 0 20px;
+}
+.secondtitle{
+	padding:20px 20px 15px 20px;
+}
+.author{
+	padding: 3px 20px;
+	font-size:12px; 
+}
+.parag{
+	padding:5px 30px 20px 20px ;
+
+}
+p{
+	text-indent: 30px;
+	font-size: 15px;
+}
+p a{
+	color: blue;
+}
+.images{
+	margin-left: 20px;
+}
+.lists{
+	margin: 10px 0 10px 60px;
+}
+.wordAndImag{
+	width: 130px;
+	height: 130px;
+	border: 1px solid black;
+	margin: 15px 0 15px 70px;
+	text-align: center;
+}
+#third span{
+	font-size: 12px;
+}
+#third img{
+	width: 90px;
+	height: 90px;
+	margin-top: 8px;
+}
+#formcontent{
+	margin:20px;
+}
+table {
+	width: 100%;
+	text-align: left;
+	text-indent: 8px;
+	border-collapse: collapse;
+}
+thead th{
+	background-color: black;
+	color: white;
+}
+td{
+   border: 1px solid #CECECE;
+}
+tfoot{
+     background-color: #CCCCCC;
+     color: black;
+     font-weight: bold;
+}
+
+#fifth{
+	margin-right: 20px;
+}
+#bar{
+	width: 100%;
+	height: 44px;
+	line-height: 44px;
+	border-left: 3px solid #CACACA;
+	position: relative;
+	left: 20px;
+	text-indent: 0.5em;
+	font-weight: bold;
+}
+#information{
+	margin-left: 25%;/*注意注意*/
+	font-size: 14px;
+	font-weight: bold;
+}
+#information li{
+	margin-top: 10px;
+}
+#information li label{
+	display: inline-block;
+	width: 120px;/*注意注意*/
+	text-align: right;/*注意注意*/
+	padding-right: 5px;
+}
+ .hint {
+        display: block;
+        margin-left:13%;
+        color: #A19FAD;
+        margin-top: 5px;
+    }
+.confirm-btn{
+	display: block;
+	background-color: #3355DD;
+	color: white;
+	width: 119%;
+	height: 40px;
+	line-height: 40px;
+    margin-left: -25%;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+#footer{
+	background-color: black;
+	width: 100%;
+	height: 60px;
+	padding-top: 15px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 10px;
+	color: white;
+}
